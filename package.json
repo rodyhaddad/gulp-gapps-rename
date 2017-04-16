@@ -1,0 +1,32 @@
+{
+  "name": "gulp-gapps-rename",
+  "version": "0.0.0",
+  "description": "Gulp Plugin to rename files to Google Apps Script compatible names. To be used before uploading files to GApps",
+  "license": "MIT",
+  "repository": "rodyhaddad/gulp-gapps-rename",
+  "author": {
+    "name": "rodyhaddad",
+    "email": "rody@rodyhaddad.com",
+    "url": "rodyhaddad.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "eslint *.js && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^3.19.0"
+  }
+}
